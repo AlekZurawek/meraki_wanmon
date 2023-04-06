@@ -9,3 +9,13 @@ to run this script you must run both files
 
 python3 wanmon.py &
 python3 alert.py
+
+Email alerts should come with the following subject:
+
+{serial number} {interface} {old status} changed to {new status}
+
+example:
+
+1111-1111-1111 wan2 failed changed to ready
+
+
